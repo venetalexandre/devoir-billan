@@ -1,23 +1,37 @@
+@font-face{
+  font-family: "lato";
+  src: url("../font/Lato/Lato-Black.ttf");
+  src: url("../font/Lato/Lato-Black.woff");
+}
+@font-face{
+  font-family: "roboto";
+  src: url("../font/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf");
+  src: url("../font/Roboto/Roboto-Italic-VariableFont_wdth_wght.woff");
+}
+
 * {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 body {
-  width: 1200px;
+  width: 1160px;
 }
 .tete{
 background-color: #17abb3;
+height: 300px;
+    width: 1160px;
 }
-header {
-    display: flex;
-}
- 
 .profil {
   width: 100px;
   height: auto;
   border: 4px solid red;
   border-radius: 50%;
 }
-h1 {
+h1,h2,h3{
+  font-family:"lato", serif;
+}
+ul,p{
+  font-family: "roboto", sans-serif;
+
 }
