@@ -1,9 +1,9 @@
-@font-face{
+@font-face {
   font-family: "lato";
   src: url("../font/Lato/Lato-Black.ttf");
   src: url("../font/Lato/Lato-Black.woff");
 }
-@font-face{
+@font-face {
   font-family: "roboto";
   src: url("../font/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf");
   src: url("../font/Roboto/Roboto-Italic-VariableFont_wdth_wght.woff");
@@ -17,21 +17,60 @@
 body {
   width: 1160px;
 }
-.tete{
-background-color: #17abb3;
-height: 300px;
-    width: 1160px;
+
+h1,
+h2,
+h3 {
+  font-family: "lato", serif;
+}
+ul,
+p {
+  font-family: "roboto", sans-serif;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  color: #ffffff;
+}
+.tete {
+  background-color: #17abb3;
+  height: 300px;
+  width: 1160px;
 }
 .profil {
+  width: 200px;
+  height: auto;
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+  grid-column: 2/3;
+}
+.nom {
+  grid-column: 11/18;
+}
+.titre {
+  grid-column: 11/18;
+  grid-row: 2/3;
+  font-size: 15px;
+}
+.contact {
+  grid-column: 12/14;
+  grid-row: 3/4;
+
+}
+.info {
+  grid-column: 14/17;
+  grid-row: 3/4;
+ 
+}
+footer{
+  background-color: #17abb3;
+  height: 300px;
+  width: 1160px;
+}
+.logo{
   width: 100px;
   height: auto;
-  border: 4px solid red;
-  border-radius: 50%;
-}
-h1,h2,h3{
-  font-family:"lato", serif;
-}
-ul,p{
-  font-family: "roboto", sans-serif;
-
+  margin-top: 100px;
 }
