@@ -24,10 +24,11 @@ h3 {
   font-family: "lato", serif;
 }
 ul,
+ol,
 p {
   font-family: "roboto", sans-serif;
+  font-size: 20px;
 }
-
 header {
   display: grid;
   grid-template-columns: repeat(20, 1fr);
@@ -45,6 +46,7 @@ header {
   border: 4px solid #ffffff;
   border-radius: 50%;
   grid-column: 2/3;
+  cursor: zoom-in;
 }
 .nom {
   grid-column: 11/18;
@@ -52,25 +54,99 @@ header {
 .titre {
   grid-column: 11/18;
   grid-row: 2/3;
-  font-size: 15px;
+  font-size: 20px;
 }
 .contact {
   grid-column: 12/14;
   grid-row: 3/4;
-
 }
 .info {
   grid-column: 14/17;
   grid-row: 3/4;
- 
 }
-footer{
+footer {
   background-color: #17abb3;
   height: 300px;
   width: 1160px;
 }
-.logo{
+.logo {
   width: 100px;
   height: auto;
   margin-top: 100px;
 }
+.experience {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(10, 150px);
+}
+h3 {
+  color: #17abb3;
+  font-size: 25px;
+}
+.lorem {
+  grid-column: 2/4;
+  grid-row: 1/3;
+  text-indent: 50px;
+}
+.Compétence {
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+.formation {
+  grid-column: 2/3;
+  grid-row: 3/5;
+}
+.stage {
+  grid-column: 2/3;
+  grid-row: 5/7;
+}
+.qualite {
+  grid-column: 1/2;
+  grid-row: 8/9;
+}
+.centre {
+  grid-column: 1/2;
+  grid-row: 6/7;
+}
+.langue{
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.employ {
+  grid-column: 2/3;
+  grid-row: 8/9;
+}
+.cfmda {
+  color: #17abb3;
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+.brevet {
+  color: #17abb3;
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+.Nateva {
+  color: #17abb3;
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+.gitem {
+  color: #17abb3;
+  grid-column: 3/4;
+  grid-row: 6/7;
+}
+.huitahuit {
+  grid-column: 3/4;
+  grid-row: 8/9;
+  color: #17abb3;
+}
+.intermache {
+  grid-column: 3/4;
+  grid-row: 9/10;
+  color: #17abb3;
+}
+.date{
+  color: #ffffff;
+}
+
